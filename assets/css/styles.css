@@ -9,3 +9,37 @@
 
 }
 
+/*Maybe create a loading screen for when reloading to blog */
+
+header{
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 5px solid var(--dark-brown);
+   padding-left: 10px;
+   
+}
+
+
+body{
+    background-color: var(--beige);
+}
+
+main{
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-left: 5px solid var(--dark-brown);
+
+}
+
+img{
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    border: 5px solid var(--light-brown);
+    margin: 20px;
+
+}
+
+
+

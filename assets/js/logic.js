@@ -1,0 +1,1 @@
+/*Adding a function for the light/dark theme */
