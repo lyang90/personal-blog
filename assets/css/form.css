@@ -1,3 +1,61 @@
-form{
+:root{
+    --beige: #EDE0D4;
+    --light-tan: #E6CCB2;
+    --dark-tan: #DDB892;
+    --light-brown: #B08968;
+    --dark-brown: #7F5539;
+    --brown: #9C6644;
+
+}
+
+/*Setting the margin to match the header 1 */
+header form{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*Changing the button to have an icon and text */
+button{
+    background-color: var(--dark-tan);
+    color: #000000 ;
+    border: 2px solid var(--brown);
+    border-radius: 5px;
    
 }
+
+/*Setting the size of the form to take up more space*/
+main form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Setting the input to be larger and color of the border with rounded corners */
+input{
+    width: 100%;
+    border: 2px solid var(--brown);
+    border-radius: 5px;
+    font-size: large;
+}
+
+/*Adding space on the below the labels */
+label{
+    padding-bottom: 10px;
+    
+}
+
+/*Setting a text area for the content to be typed in */
+textarea{
+    resize: none;
+    border: 2px solid var(--brown);
+    border-radius: 5px;
+}
+
+/*Styling the sumbit button to match the theme */
+#submit-button{
+    background-color: var(--light-brown);
+    color: #000000;
+    padding: 5px;
+}
+

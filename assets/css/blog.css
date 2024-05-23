@@ -1,0 +1,83 @@
+:root {
+    --beige: #EDE0D4;
+    --light-tan: #E6CCB2;
+    --dark-tan: #DDB892;
+    --light-brown: #B08968;
+    --dark-brown: #7F5539;
+    --brown: #9C6644;
+
+}
+
+/*Seting the background color of the webpage*/
+body {
+    background-color: var(--beige);
+
+}
+
+/*Formating the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 10px double var(--dark-brown);
+    padding-left: 10px;
+}
+
+/*Setting the header closer to the line/border */
+h1 {
+    margin-bottom: 5px;
+}
+
+/*Formating the blog posts spacing, border and rounded corners */
+main {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid var(--brown);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+ 
+p {
+    margin: 10px;
+}
+
+/*Formating the title and changing the text style */
+.title {
+    font-weight: bold;
+    border-bottom: 5px solid var(--brown);
+    margin-bottom: 5px;
+}
+
+/*Adding more space to margin and padding */
+.content {
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-bottom: 15px;
+
+}
+
+/*Styling the username and changing font style */
+.username {
+    font-style: italic;
+    margin-left: 20px;
+}
+
+/*Changing the spacing of list */
+ul{
+    margin: 10px;
+    padding: 10px;
+}
+
+/*Styling the list to not have bullet points */
+li {
+    list-style-type: none;
+    /*Make the list item bold but not the links */
+}
+
+
+/*Making the links look like regular text */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+

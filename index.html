@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-80" />
-        <title>Food Blog</title>
-        <link rel="stylesheet" href="./assets/css/blog.css"/>
-        <link rel="stylesheet" href="./assets/css/form.css"/>
-        <link rel="stylesheet" href="./assets/css/styles.css"/>
-    </head>
 
-    <body>
-        <header>
-            <h1>Food Blog</h1>
-            <form>
-                <button>Light/Darkness</button>
-            </form>
-        </header>
+<head>
+    <meta charset="UTF-80" />
+    <title>Food Blog</title>
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
 
-        <img src="./assets/images/burger.jpg"/>
-        <main>
-            
+<body>
+    <header>
+        <h1>Food Blog</h1>
+        <form>
+            <button><i class="fa fa-sun-o"></i> Light</button>
+        </form>
+    </header>
+
+
+    <main>
+        <img src="./assets/images/burger.jpg" />
+        <section>
             <h2>What's kind of food did you try today?</h2>
             <form>
-                <label for="username">Username:</label>
-                <input type="text" id="username"><br>
-                <label for="title">Title:</label>
-                <input type="text" id="title"><br>
-                <label for="content">Content:</label>
-                <input type="text" id="content"><br>
-                <input type="submit" value="Submit">
+                <label for="username" >Username</label>
+                <input type="text" required id="username"><br>
+                <label for="title">Title</label>
+                <input type="text" id="title" required><br>
+                <label for="content" required>Content</label>
+                <textarea rows="4" height="10px" id="content"></textarea><br>
+                <input type="submit" value="Submit" id="submit-button">
             </form>
-        </main>
-    </body>
+        </section>
 
-   <!--Link the java script here-->
+    </main>
+</body>
+
+<script src="./assets/js/form.js"></script>
+<script src="./assets/js/logic.js"></script>
+<script src="./assets/js/blog.js"></script>
+
 </html>
