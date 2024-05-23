@@ -11,7 +11,7 @@ The usage of the personal blog is being able to document and store posts into th
 ![alt text](assets/images/screenshot.png)
 
 ## Credits
-Color palate: https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
-Burger image by Engin Akyurt: https://www.pexels.com/photo/plate-of-fries-and-burger-3219483/
-Moon icon: https://fontawesome.com/v4/icon/moon-o
-Sun icon: https://fontawesome.com/v4/icon/sun-o
+- Color palate: https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644
+- Burger image by Engin Akyurt: https://www.pexels.com/photo/plate-of-fries-and-burger-3219483/
+- Moon icon: https://fontawesome.com/v4/icon/moon-o
+- Sun icon: https://fontawesome.com/v4/icon/sun-o
